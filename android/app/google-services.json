@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "143610315989",
+    "project_id": "legalease-74b3a",
+    "storage_bucket": "legalease-74b3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143610315989:android:c1af94dcbea03d02114e5c",
+        "android_client_info": {
+          "package_name": "com.example.legalease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTKedY2vBknRedZEVjsLADTo7tyCBD93E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
