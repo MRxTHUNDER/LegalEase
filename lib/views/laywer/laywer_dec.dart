@@ -98,16 +98,23 @@ class DetailsView extends StatelessWidget {
                   ),
                     
                   10.heightBox,
-                  AppStyles.bold(title: "About", color: AppColors.textColor, size: AppSizes.size16, ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      AppStyles.bold(title: "About", color: AppColors.textColor, size: AppSizes.size16, ),
                   AppStyles.bold(title: "Ram Boolchand Jethmalani was one of India’s most well-known lawyers. He was a man with a wide range of abilities and difficulties. At the age of 17, he graduated from the Government Law College in Mumbai with an LLB degree." 
                           "He went on to earn an LLM credential from SC Shahani Law School in Karachi.  Ram Jethmalani was India’s most well-known criminal lawyer. He served as India’s Minister of Union Law and President of the Indian Bar Committee." 
                           "In 2010, he was elected President of the Supreme Court Bar Association. His fee was estimated to be about Rs. 25 lakh, putting him at the top of the list as the most expensive lawyer of his time."
                           , color: AppColors.textColor.withOpacity(0.7), size: AppSizes.size12),
+                    ],
+                  ),
+                  
                     
                   10.heightBox,
                   Column(
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        //crossAxisAlignment: CrossAxisAlignment.end,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           AppStyles.bold(title: "Address", color: AppColors.textColor, size: AppSizes.size16),
                           5.heightBox,
